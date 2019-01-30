@@ -1,0 +1,71 @@
+/* reset css */
+body {
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-input,
+.el-textarea {
+  width: 95%;
+}
+.el-form {
+  width: 80%;
+  margin: 0 auto;
+}
+.el-form-item__error {
+  position: static;
+  margin-left: 10px;
+  display: inline-block;
+}
+.el-select {
+  width: 70%;
+}
+.btn-large {
+  height: 50px;
+  font-size: 16px;
+  padding: 0 60px;
+  font-size: 20px;
+}
+.btn-color-gray {
+  font-weight: normal;
+  color: #606266;
+}
+.danger-text {
+  color: #f56c6c;
+}
+.danger-text:hover {
+  color: #f78989;
+}
+
+/* batch表单 */
+.batch-item {
+  position: relative;
+  background-color: #fafafa;
+  border-radius: 2px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.batch-item-order {
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  width: 60px;
+  height: 40px;
+  background-color: #409EFF;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}
+.btn-float-right {
+  float: right;
+}
+.submit-btn {
+  text-align: center;
+}
+.button-group {
+  margin: 40px 0 20px 0;
+}
+.el-dialog {
+  width: 90%;
+}
